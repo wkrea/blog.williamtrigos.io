@@ -1,15 +1,14 @@
-baseURL = "https://wkrea.github.io/homepage"
+baseURL = "https://miguelsimoni.github.io/hugo-initio-site/"
 languageCode = "en-us"
-title = "wkrea"
+title = "Initio - Free, multipurpose html5 template by GetTemplate"
 theme = "hugo-initio"
 publishDir = "docs"
-disqusShortname = "wkrea WebPage Hugo"
 
 [params]
-    name = "William Trigos"
+    name = "Anthony Russel"
     description = "A mystery person"
-    email = "william.trigos@gmail.com"
-    phone = "(+57) 323 415 xxxx"
+    email = "anthony.russel42@example.com"
+    phone = "+234 23 9873237"
     address = "234 Hidden Pond Road, Ashland City, TN 37015"
     year = 2017
     avatar = "images/guy.jpg"
