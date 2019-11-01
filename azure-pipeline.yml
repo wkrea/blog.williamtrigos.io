@@ -35,14 +35,14 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      git clone https://anoff:$(github_token)@github.com/anoff/blog.git --branch=gh-pages ./ghpages
+      git clone https://wkrea:$(github_token)@github.com/wkrea/blog.williamtrigos.io.git --branch=ghpages ./ghpages
       cd ./ghpages
       git config core.autocrlf false
       git config user.email ""
-      git config user.name "CI Joe"
+      git config user.name "CI Azure"
       rm -rf *
       cp -R $(Build.ArtifactStagingDirectory)/* .
-      echo blog.anoff.io > CNAME
+      echo blog.williamtrigos.io > CNAME
       git add .
       git commit --allow-empty -m 'Automated build #$(Build.BuildNumber)'
       git push
