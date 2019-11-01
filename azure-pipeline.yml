@@ -1,8 +1,9 @@
 trigger:
 - master
 
-variables:
-- group: integration
+# variables:
+# - group: integration
+
 pool:
   vmImage: 'ubuntu-latest'
 
